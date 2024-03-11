@@ -10,7 +10,7 @@ const Card = ({ data, reference }) => {
       <motion.div
         drag
         dragConstraints={reference}
-        className="relative overflow-hidden w-44 h-56 rounded-3xl bg-zinc-500/90 p-5"
+        className="relative overflow-hidden w-[18%] h-[45%] rounded-3xl bg-zinc-500/90 p-5"
       >
         <FaFileAlt />
         <p className="text-xs mt-2">{data.desc}</p>
